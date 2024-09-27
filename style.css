@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:verdana;
+}
+
+body{
+    background-color: rgb(251, 153, 118);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    background-color:beige;
+    padding:40px;
+    border-radius:1.5rem;   
+    min-height:45vh;
+    
+}
+
+form{
+    margin-top:55px;
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(85, 3, 3)
+}
+
+
+form select, input,button{
+    width:100%;
+    border:none;
+    outline:none;
+    border-radius:7px;
+  
+}
+
+
+form input{
+    border:2px solid rgb(189, 188, 188);
+    height:35px;
+    font-size:20px;
+    padding-left:10px;
+}
+
+
+.dropdown{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:55px;
+    margin-bottom:55px;
+
+}
+
+
+.select-container img{
+    width:50px;
+}
+
+.select-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:120px;
+    border:2px solid rgb(189, 188, 188);
+    border-radius:7px;
+}
+
+select{
+    height:30px;
+    font-size:20px;
+    width:auto;
+}
+
+.msg{
+    color:black;
+    font-size:16px;
+    margin-bottom:55px;
+}
+
+
+button{
+    padding:7px;
+    font-size:20px;
+    background-color:rgb(137, 4, 140);
+    cursor:pointer;
+    color:white;
+    margin-bottom:20px;
+}
+
+i{
+    color:rgb(2, 72, 2);
+    margin-top:20px;
+    font-size:30px;
+ 
+}
+
