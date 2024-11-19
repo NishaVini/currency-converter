@@ -39,7 +39,7 @@ form select, input,button{
 
 form input{
     border:2px solid rgb(189, 188, 188);
-    height:35px;
+    height:45px;
     font-size:20px;
     padding-left:10px;
 }
@@ -76,8 +76,8 @@ select{
 
 .msg{
     color:black;
-    font-size:16px;
-    margin-bottom:55px;
+    font-size:20px;
+    margin-bottom:50px;
 }
 
 
@@ -89,11 +89,11 @@ button{
     color:white;
     margin-bottom:20px;
 }
-
+/* 
 i{
     color:rgb(2, 72, 2);
     margin-top:20px;
     font-size:30px;
  
-}
+} */
 
